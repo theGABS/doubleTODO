@@ -20,3 +20,21 @@
 .App-link {
   color: #09d3ac;
 }
+
+
+.card {
+  box-shadow: 1px 1px 1px 1px black;
+  width: 200px;
+  height: 100px;
+}
+
+.lists {
+  display: flex;
+}
+
+.list {
+  background: gainsboro;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 10px;
+}
