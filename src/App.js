@@ -38,6 +38,10 @@ class App extends React.Component {
       })
   }
 
+
+  // This function overcomplecated, because it is hard to work with Array in immutable way in react.
+  // In real life I use some helper for array (For example MapReplace; Another example MobX, where I shouldn't work in immutable way) 
+  // or firebase DB where I use object and ID instead of array.
   onChange = ({propName, cardIndex, index, value}) => {
     console.log({propName, cardIndex, index, value})
     this.setState({
